@@ -11,8 +11,6 @@ public class UserRegistrationService implements UserRegServiceImpl {
     @Autowired
     private UserRepositoryImpl userRepositoryImpl;
 
-    //Committing......
-
     @Override
     public void registerValue(UserDTO userDTO) {
         UserEntity userEntity= UserEntity.builder()
