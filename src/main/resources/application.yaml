@@ -1,0 +1,13 @@
+#Line 5 - 9 which explains the H2 database to expose the UI and show it to the customers.
+spring:
+  datasource:
+    url: jdbc:h2:mem:users
+    username: sa
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+
+
+
